@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" href="img/form-icon-icon-fill-the-form-11553518237ivbjdgs9as.png">
+</head>
+<body>
+    <img src="img/image_menu.png" alt="icon" width="75">
+    <h1>Desenvolvimento de Sistemas Web I - Form
+    </h1>
+    <form method="post">
+        <label for="Name">Name: </label>
+        <input id = Name type="text" placeholder="Enter your Name ">
+
+        <br> <br>
+        
+        <label for="Age">Age: </label>
+        <input type="hidden" id="age">
+        <input type="radio" id="less_than7" >
+        <label for="less_than7">>18</label>
+        
+        <input type="radio" id="beteween19n35">
+        <label for="beteween19n35">19-35</label>
+
+        <input type="radio" id="beteweenn36n48">
+        <label for="beteweenn36n48">36-48</label>
+
+        <input type="radio"
+        id="greaterthan48">
+        <label for="greaterthan48"><48</label>
+
+        <br> <br>
+
+        <label for="profession">Profession: </label>
+        <input type="text" id="profession" placeholder="Enter your Profession">
+
+        <br> <br>
+        
+        <label for="country">Country: </label>
+        <br>
+        <select name="country" id="country">
+            <option value="Brazil">Brazil</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Bolivia">Bolivia</option>
+        </select>
+
+        <br> <br>
+        
+        <label for="interests">Interest: </label>
+        <br>
+        <select name="interests" id="interests" multiple size="5">
+            <option value="art">Art</option>
+        
+            <option value="music">Music</option>
+        
+            <option value="sports">Sports</option>
+        
+            <option value="photography">Photography</option>
+
+            <option value="Philosophy">Philosophy</option>
+
+            <option value="tecnologies">Tecnologies</option>
+
+            <option value="Gastronomy">Gastronomy</option>
+
+            <option value="finances">Finances</option>
+        </select>
+
+        <br> <br>
+        
+        <label for="feedback">Feedback: 
+        </label>
+        <br>
+        <textarea name="comments" id="feedback" rows="20"
+        cols="50"placeholder="Enter your comments here"></textarea>
+        <br> <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
